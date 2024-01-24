@@ -1,6 +1,7 @@
 ## Frontend Testing Part-2 
 
 1. Watch Mode
+2. Coverage include and exclude
 2. Vitest UI
 3. User Interaction
 4. Provider
