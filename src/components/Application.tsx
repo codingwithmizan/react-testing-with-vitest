@@ -1,14 +1,14 @@
 /** @format */
 
 const Application = () => {
-	// console.log(x);
+	console.log(x);
 
-	// const x = 90
+	const x = 90
 	return (
 		<form>
 			<div className="mb-6">
 
-				
+
 				<label htmlFor="name">Name</label>
 				<input
 					type="text"
