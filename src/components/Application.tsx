@@ -1,12 +1,14 @@
 /** @format */
 
 const Application = () => {
-	console.log(x);
-	
-	const x = 90
+	// console.log(x);
+
+	// const x = 90
 	return (
 		<form>
 			<div className="mb-6">
+
+				
 				<label htmlFor="name">Name</label>
 				<input
 					type="text"
@@ -19,13 +21,6 @@ const Application = () => {
 				<select id="job-location" className="border border-green-500">
 					<option value="US"> United States</option>
 					<option value="UK"> United Kingdom</option>
-
-
-
-
-
-
-					
 
 					<option value="CA"> Canada</option>
 

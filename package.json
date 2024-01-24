@@ -14,13 +14,10 @@
 		"test:ui": "vitest --ui",
 		"prepare": "husky install"
 	},
-	"husky": {
-		"hooks": {
-			"pre-commit": "lint-staged"
-		}
-	},
+
 	"lint-staged": {
-		"*": "prettier --write"
+		"*.{ts, tsx}": ["eslint"],
+		"*.{ts, tsx, css, scss}":["prettier --write"]
 	},
 	"dependencies": {
 		"antd": "^5.13.2",
