@@ -1,6 +1,6 @@
 /** @format */
 
-import { useForm } from 'react-hook-form';
+import { useForm } from "react-hook-form";
 
 interface IData {
 	name: string;
@@ -20,7 +20,7 @@ export const UserForm = () => {
 				<input
 					type="text"
 					id="name"
-					{...register('name')}
+					{...register("name")}
 					className="border"
 				/>
 			</div>
@@ -29,7 +29,7 @@ export const UserForm = () => {
 				<input
 					type="text"
 					id="email"
-					{...register('email')}
+					{...register("email")}
 					className="border"
 				/>
 			</div>
@@ -38,7 +38,7 @@ export const UserForm = () => {
 				<input
 					type="number"
 					id="age"
-					{...register('age')}
+					{...register("age")}
 					className="border"
 				/>
 			</div>

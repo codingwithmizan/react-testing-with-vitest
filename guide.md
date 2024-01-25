@@ -19,3 +19,5 @@
     - prettier
 3. husky
 4. lint-stage
+
+-   https://javascript.plainenglish.io/airbnb-eslint-setup-with-husky-lint-staged-in-react-3f6a314b3cc1

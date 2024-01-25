@@ -15,13 +15,6 @@ const Application = () => {
 				/>
 			</div>
 
-
-
-
-
-
-
-			
 			<div className="mb-6">
 				<label htmlFor="job-location">Job Location</label>
 				<select id="job-location" className="border border-green-500">

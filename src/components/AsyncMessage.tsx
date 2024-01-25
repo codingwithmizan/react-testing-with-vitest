@@ -1,13 +1,13 @@
 /** @format */
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export const AsyncMessage = () => {
-	const [message, setMessage] = useState('prev');
+	const [message, setMessage] = useState("prev");
 
 	useEffect(() => {
 		const timer = setTimeout(() => {
-			setMessage('Hello World');
+			setMessage("Hello World");
 		}, 900);
 
 		return () => clearTimeout(timer);

@@ -1,8 +1,8 @@
 /** @format */
 
-import { UserFormWithContext } from '@/components/UserFormWithContext';
-import { render, screen } from '@testing-library/react';
-import { FormProvider, useForm } from 'react-hook-form';
+import { UserFormWithContext } from "@/components/UserFormWithContext";
+import { render, screen } from "@testing-library/react";
+import { FormProvider, useForm } from "react-hook-form";
 
 const UserTestForm = () => {
 	const methods = useForm();
@@ -13,10 +13,10 @@ const UserTestForm = () => {
 	);
 };
 
-describe('UserFrom Component:', () => {
-	test('renders correctly', () => {
+describe("UserFrom Component:", () => {
+	test("renders correctly", () => {
 		render(<UserTestForm />);
-		const nameElement = screen.getByRole('textbox', {
+		const nameElement = screen.getByRole("textbox", {
 			name: /name/i,
 		});
 		expect(nameElement).toBeInTheDocument();

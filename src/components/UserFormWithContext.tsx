@@ -1,6 +1,6 @@
 /** @format */
 
-import { useFormContext } from 'react-hook-form';
+import { useFormContext } from "react-hook-form";
 
 export const UserFormWithContext = () => {
 	const { register } = useFormContext();
@@ -11,7 +11,7 @@ export const UserFormWithContext = () => {
 				<input
 					type="text"
 					id="name"
-					{...register('name')}
+					{...register("name")}
 					className="border"
 				/>
 			</div>
@@ -20,7 +20,7 @@ export const UserFormWithContext = () => {
 				<input
 					type="text"
 					id="email"
-					{...register('email')}
+					{...register("email")}
 					className="border"
 				/>
 			</div>

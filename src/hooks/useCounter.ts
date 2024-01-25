@@ -1,6 +1,6 @@
 /** @format */
 
-import { useState } from 'react';
+import { useState } from "react";
 
 export const useCounter = () => {
 	const [count, setCount] = useState(0);
