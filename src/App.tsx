@@ -1,7 +1,7 @@
 /** @format */
 
 const App = () => {
-	return <div className="p-10 text-red-700">Hello World</div>;
+	return <div className="p-10 text-gray-100 bg-green-600">Hello React vitest</div>;
 };
 
 export default App;
